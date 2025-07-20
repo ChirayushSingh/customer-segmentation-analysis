@@ -3,9 +3,9 @@
 
 #The project includes:
 
-RFM (Recency, Frequency, Monetary) analysis
-K-means clustering for customer grouping
-Comprehensive statistical analysis
-Multiple visualization types (pie charts, scatter plots, heatmaps)
-Customer lifetime value calculations
-Churn risk analysis
+RFM (Recency, Frequency, Monetary) analysis.
+K-means clustering for customer grouping.
+Comprehensive statistical analysis.
+Multiple visualization types (pie charts, scatter plots, heatmaps).
+Customer lifetime value calculations.
+Churn risk analysis.
