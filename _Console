@@ -1,0 +1,72 @@
+Loading customer database...
+Successfully loaded 1000 customer records.
+
+=== CUSTOMER DATABASE STATISTICS ===
+
+Customer Overview:
+Total Customers: 1000
+Average Age: 40.2
+Average Annual Income: $51,954
+Average Spending Score: 51.3
+Average Recency (days): 28.7
+Average Frequency: 4.9
+Average Monetary Value: $687.11
+Average Loyalty (years): 2.1
+
+Age Distribution:
+18-25: 163 customers (16.3%)
+26-35: 226 customers (22.6%)
+36-45: 274 customers (27.4%)
+46-55: 198 customers (19.8%)
+56+: 139 customers (13.9%)
+
+Income Segments:
+Low Income (<$35k): 200 customers (20.0%)
+Middle Income ($35k-$65k): 557 customers (55.7%)
+High Income ($65k+): 243 customers (24.3%)
+=== RFM ANALYSIS ===
+
+RFM Segment Summary:
+                     customer_id  recency_days  frequency  monetary_value
+RFM_Segment                                                              
+Champions                    569         18.61       5.73          909.42
+Lost Customers                26         60.85       2.77          126.71
+Loyal Customers              276         37.77       4.13          483.36
+Potential Loyalists          129         47.64       3.52          255.40
+
+=== K-MEANS CLUSTERING (k=5) ===
+
+Cluster Distribution:
+Cluster 0: 39 customers
+Cluster 1: 307 customers
+Cluster 2: 326 customers
+Cluster 3: 236 customers
+Cluster 4: 92 customers
+
+Cluster Characteristics:
+             age  annual_income  ...  frequency  monetary_value
+K_Cluster                        ...                           
+0          39.51       49412.55  ...       5.03         3992.84
+1          47.49       39556.88  ...       3.91          562.81
+2          35.29       51972.11  ...       4.96          562.97
+3          37.95       67787.79  ...       6.14          493.33
+4          38.84       53715.50  ...       5.03          637.49
+
+[5 rows x 6 columns]
+
+=== SEGMENT ANALYSIS ===
+
+RFM Segment Distribution:
+Champions: 569 customers (56.9%)
+Loyal Customers: 276 customers (27.6%)
+Potential Loyalists: 129 customers (12.9%)
+Lost Customers: 26 customers (2.6%)
+
+Average Customer Lifetime Value: $6,654.32
+Top 10% CLV Average: $17,691.24
+
+Churn Risk Analysis:
+High-risk customers: 3 (0.3%)
+
+Generating customer segmentation plots...
+Error: 'Categorical' with dtype category does not support reduction 'mean'
